@@ -4,8 +4,8 @@ const express = require("express");
 const line = require("@line/bot-sdk");
 const PORT = process.env.PORT || 3000;
 
-const getChannelSeacret = "ご自身のchannel seacret key";
-const getChannelAccessToken = "ご自身のchannel accsess token key";
+const getChannelSeacret = "23f90c46e1c0a8270f8f837fa33d2242";
+const getChannelAccessToken = "Z9rB1xQ+PvLFKQPPX7rDzy1s5XZjeFyb9qlW+qGpxwft8+U4lHnxY88UxdGo0Vc2Fhhluxlb4flGeC7SBz902Y8e94cbJ7nzDkZf5LRdUY0LehWK3plzpXv9/zMC3XNCK+rmuxBLCa8ObzPIYxKccwdB04t89/1O/w1cDnyilFU=";
 
 const config = {
   channelSecret: getChannelSeacret(),
